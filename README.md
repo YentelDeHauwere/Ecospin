@@ -136,6 +136,7 @@ yarn serve:build
 ## Authors
 
 Philippe De Pauw - Waterschoot | [drdynscript](https://github.com/drdynscript)
+Yentel De Hauwere | [YentelDeHauwere](https://github.com/YentelDeHauwere)
 
 ## License
 
