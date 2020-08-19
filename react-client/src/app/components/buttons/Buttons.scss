@@ -1,0 +1,34 @@
+@import '../../_sass/abstracts/index';
+
+.button-large {
+	color: $ecospin-white !important;
+	border-radius: 50px !important;
+	font-weight: 700 !important;
+	font-size: $font-size-l !important;
+	cursor: pointer;
+	text-decoration: none;
+	transition: 0.2s;
+}
+
+.button-large.outline {
+	color: $ecospin-green !important;
+	background-color: $ecospin-white;
+	border-radius: 50px !important;
+	font-weight: 700 !important;
+	font-size: $font-size-l !important;
+	cursor: pointer;
+	text-decoration: none;
+
+	&:hover {
+		color: $ecospin-white !important;
+	}
+}
+
+.button-edit {
+	color: $ecospin-green;
+	border: 1px solid $ecospin-green;
+	background: $ecospin-white;
+	padding: 10px 20px;
+	border-radius: 50px;
+	margin: 32px;
+}

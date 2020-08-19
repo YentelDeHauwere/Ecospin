@@ -1,0 +1,31 @@
+@import '../../_sass/abstracts/index';
+
+.navb {
+	display: flex;
+	flex-direction: row;
+	width: 100vw;
+	list-style-type: none;
+	justify-content: space-around;
+	padding: 0 0 5px 0;
+	border-radius: 30px 30px 0 0;
+	bottom: 0;
+	position: fixed;
+	background-color: $ecospin-white;
+	z-index: 2;
+	-webkit-box-shadow: 0px 0px 21px -1px rgba(54,57,65,0.19);
+	-moz-box-shadow: 0px 0px 21px -1px rgba(54,57,65,0.19);
+	box-shadow: 0px 0px 21px -1px rgba(54,57,65,0.19);
+
+	&-link {
+		padding: 1rem;
+		&-icon {
+			color: $ecospin-black ;
+			margin: 0 !important;
+			font-size: $font-size-xxl;
+
+			&-active > svg {
+				color: $ecospin-green !important;
+			}
+		}
+	}
+}

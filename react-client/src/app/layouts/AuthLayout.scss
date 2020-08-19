@@ -1,0 +1,173 @@
+@import '../_sass/abstracts/index';
+
+.auth {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+}
+
+.card-body {
+	background-color: white;
+	padding: 2rem !important;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	max-width: 1000px;
+}
+
+.card-title {
+	color: $ecospin-green;
+	font-size: $font-size-xl;
+	font-weight: 600 !important;
+	margin-bottom: 3vh !important;
+	margin-top: 5vh;
+}
+
+.form-signin {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.auth-buttons {
+	display: flex;
+}
+
+.btn.btn-facebook {
+    color: $ecospin-white;
+	background-color: #4267B2;
+	border: 2px solid $ecospin-white;
+	border-radius: 50px;
+	font-weight: 600;
+	height: 45px;
+	width: 100%;
+	transition: 0.4s;
+	transition-timing-function: ease-in;
+	font-size: $font-size-m;
+}
+
+.btn.btn-facebook:hover {
+    color: #4267B2;
+	background-color: $ecospin-white;
+	border: 2px solid #4267B2;
+}
+
+.btn.btn-google {
+    color: $ecospin-black;
+	background-color: $ecospin-white;
+	border: 2px solid $ecospin-black;
+	border-radius: 50px;
+	font-weight: 600;
+	height: 45px;
+	width: 100%;
+	margin-left: 10px;
+	transition: 0.4s;
+	transition-timing-function: ease-in;
+	font-size: $font-size-m;
+}
+
+.btn.btn-google:hover {
+    color: $ecospin-white;
+	background-color: $ecospin-black;
+	border: 2px solid $ecospin-black;
+}
+
+.auth-divider {
+	color: $ecospin-grey;
+	margin-top: 1rem;
+	text-align: center;
+}
+
+.auth-group {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-self: center;
+	padding: 0 10vw 0 5vw;
+	margin-bottom: 30px;
+}
+
+.form-label-group {
+	display: flex;
+	margin: 5% 0 5% 0;
+}
+
+.fas {
+	margin-right: 20px;
+	color: $ecospin-green-light;
+	align-self: center;
+}
+
+.form-label {
+	margin: 0;
+	padding-left: 12px;
+	font-size: $font-size-xs;
+}
+
+.form-control {
+	border: none !important;
+	padding: 0 !important;
+	box-shadow: none !important;
+	border-radius: 0 !important;
+	border-bottom: 2px solid $ecospin-white !important;
+}
+
+.form-control:focus {
+	caret-color: $ecospin-green;
+	border-bottom: 2px solid $ecospin-green !important;
+}
+
+.form-control::placeholder {
+	color: $ecospin-grey !important;
+}
+
+.auth-forgot-pw {
+	color: $ecospin-grey !important;
+	font-size: $font-size-s;
+	text-align: center;
+	margin-top: 15px;
+}
+
+.auth-bottom {
+	color: $ecospin-grey;
+	text-align: center;
+	font-size: $font-size-m;
+	margin-top: 15px;
+
+	&-bold {
+		color: $ecospin-green;
+	}
+}
+
+/* Extra small devices (phones, 350px and down) */
+@media only screen and (max-width: 350px) {
+	.btn.btn-facebook, .btn.btn-google {
+		font-size: $font-size-xs;
+	}
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}

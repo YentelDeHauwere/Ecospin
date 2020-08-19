@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "mappings": "AEAA,yDAAyD;AAuBzD,2DAA2D;AAqC3D,kDAAkD;AAKlD,qEAAqE;AAKrE,sDAAsD;AAKtD,oDAAoD;AAKpD,qEAAqE;AChFrE,OAAO,CAAC,gIAAI;AACZ,OAAO,CAAC,+FAAI;AHIP,AAAD,qBAAS,CAAC;EACN,aAAa,EEoCD,IAAI;CFTnB;;AA5BA,AAGG,qBAHK,CAGH,MAAM,GAAG,EAAE,CAAC;EACV,MAAM,EAPT,GAAG,CAAC,KAAK,CAAC,IAAI;EAQX,WAAW,EAAE,IAAwB;EACrC,cAAc,EAAE,IAAwB;EAExC,cAAc,EAAE,SAAS;CAmB5B;;AA3BJ,AAUO,qBAVC,CAGH,MAAM,GAAG,EAAE,CAOP,IAAI,CAAC;EACH,QAAQ,EAAE,QAAQ;EAClB,OAAO,EAAE,YAAY;EACrB,OAAO,EAAE,CAAC;CAab;;AA1BR,AAeW,qBAfH,CAGH,MAAM,GAAG,EAAE,CAOP,IAAI,AAKD,QAAQ,CAAC;EACN,QAAQ,EAAE,QAAQ;EAClB,OAAO,EAAE,EAAE;EACX,OAAO,EAAE,EAAE;EAEX,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,GAAG;EAEX,UAAU,EEDf,OAAO;EFEF,SAAS,EAAE,0BAA0B;CACxC;;AAIZ,AAAD,qBAAS,CAAC;EACN,UAAU,EEOE,IAAI;CFNnB",
+    "sources": [
+        "PageSection.scss",
+        "../../_sass/abstracts/_index.scss",
+        "../../_sass/abstracts/_variables.scss",
+        "../../_sass/abstracts/_fonts.scss",
+        "../../_sass/abstracts/_functions.scss",
+        "../../_sass/abstracts/_functions.scss"
+    ],
+    "names": [],
+    "file": "PageSection.css"
+}

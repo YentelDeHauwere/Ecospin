@@ -1,0 +1,52 @@
+.mapboxgl-ctrl-bottom-left, .mapboxgl-ctrl-bottom-right{
+	display: none;
+}
+
+.mapbox {
+	height: 10vh;
+
+	&:nth-child(1):nth-child(1):nth-child(2) {
+		width: 100vw;
+		height: 100vh;
+	}
+}
+
+.mapbox div div {
+	position: fixed;
+}
+
+
+
+/* Extra small devices (phones, 350px and down) */
+@media only screen and (max-width: 550px) {
+	.mapbox {
+		height: 20vh;
+	}
+}
+
+@media only screen and (min-width: 550px) and (max-width: 600px) {
+	.mapbox {
+		height: 15vh;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.mapbox {
+		height: 45vh;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.mapbox {
+		height: 20vh;
+	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	.mapbox {
+		height: 25vh;
+	}
+}

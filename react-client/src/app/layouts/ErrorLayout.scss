@@ -1,0 +1,85 @@
+/*
+* Variables
+*/
+:root {
+    --color-purple-light: rgb(139, 107, 197);
+    --color-purple: #7E57C5;
+    --color-purple-dark: #412D66;
+    --color-purple-darkest: #201633;
+    --color-green: #5AB946;
+    --color-red: #ED0034;
+    --color-black: #000;
+    --color-white: #fff;
+    --spacer: 16px;
+}
+
+/*
+* 404 page
+*/
+.page--404 {
+	background-color: #F0F0F0F0;
+}
+
+.page--404 * {
+transition: all 268ms ease-in-out 0s;
+}
+
+.page--404 .main {
+height: 100vh;
+
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+align-items: center;
+justify-content: center;
+align-content: center;
+justify-items: center;
+}
+
+.page--404 .main>div {
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+align-items: center;
+justify-content: center;
+}
+
+.page--404 .main .title {
+padding: var(--spacer);
+font-size: 7rem;
+text-align: center;
+display: inline;
+font-weight: 700;
+color: #363941;
+}
+
+.page--404 .main .sub-title {
+margin: 0;
+padding: var(--spacer);
+font-size: 1.1rem;
+text-align: center;
+font-weight: 300;
+
+}
+
+.page--404 .main .description {
+margin: 0;
+font-size: 1.4rem;
+text-align: center;
+text-transform: capitalize;
+font-weight: 700;
+background-color: #75D375;
+border: 2px solid #75D375 !important;
+padding: 10px 30px;
+margin-top: 20px;
+transition: 0.6s;
+
+color: var(--color-white);
+
+	&:hover {
+		background-color: white;
+		color: #75D375;
+		border: 2px solid  #75D375;
+		text-decoration: none;
+	}
+}

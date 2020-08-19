@@ -1,0 +1,572 @@
+2020-05-20 15:23:48 [[31merror[39m]: 	Can't launch the application {
+  "object": {}
+}
+2020-05-20 15:24:02 [[31merror[39m]: 	Can't launch the application {
+  "object": {}
+}
+2020-05-20 15:24:04 [[31merror[39m]: 	Can't launch the application {
+  "object": {}
+}
+2020-05-24 12:42:08 [[31merror[39m]: 	Can't launch the application {
+  "object": {}
+}
+2020-05-26 13:39:00 [[31merror[39m]: 	An error occurred when creating a post ValidationError: image: Path `image` is required. {
+  "object": {
+    "errors": {
+      "image": {
+        "message": "Path `image` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "message": "Path `image` is required.",
+          "type": "required",
+          "path": "image"
+        },
+        "kind": "required",
+        "path": "image"
+      }
+    },
+    "_message": "Post validation failed",
+    "message": "Post validation failed: image: Path `image` is required.",
+    "name": "ValidationError"
+  }
+}
+2020-05-26 13:39:00 [[31merror[39m]: 	An error occurred when creating a post ValidationError: image: Path `image` is required. {
+  "object": {
+    "errors": {
+      "image": {
+        "message": "Path `image` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "message": "Path `image` is required.",
+          "type": "required",
+          "path": "image"
+        },
+        "kind": "required",
+        "path": "image"
+      }
+    },
+    "_message": "Post validation failed",
+    "message": "Post validation failed: image: Path `image` is required.",
+    "name": "ValidationError"
+  }
+}
+2020-05-26 13:39:00 [[31merror[39m]: 	An error occurred when creating a post ValidationError: image: Path `image` is required. {
+  "object": {
+    "errors": {
+      "image": {
+        "message": "Path `image` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "message": "Path `image` is required.",
+          "type": "required",
+          "path": "image"
+        },
+        "kind": "required",
+        "path": "image"
+      }
+    },
+    "_message": "Post validation failed",
+    "message": "Post validation failed: image: Path `image` is required.",
+    "name": "ValidationError"
+  }
+}
+2020-05-26 13:39:00 [[31merror[39m]: 	An error occurred when creating a post ValidationError: image: Path `image` is required. {
+  "object": {
+    "errors": {
+      "image": {
+        "message": "Path `image` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "message": "Path `image` is required.",
+          "type": "required",
+          "path": "image"
+        },
+        "kind": "required",
+        "path": "image"
+      }
+    },
+    "_message": "Post validation failed",
+    "message": "Post validation failed: image: Path `image` is required.",
+    "name": "ValidationError"
+  }
+}
+2020-05-26 13:39:00 [[31merror[39m]: 	An error occurred when creating a post ValidationError: image: Path `image` is required. {
+  "object": {
+    "errors": {
+      "image": {
+        "message": "Path `image` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "message": "Path `image` is required.",
+          "type": "required",
+          "path": "image"
+        },
+        "kind": "required",
+        "path": "image"
+      }
+    },
+    "_message": "Post validation failed",
+    "message": "Post validation failed: image: Path `image` is required.",
+    "name": "ValidationError"
+  }
+}
+2020-05-26 13:39:00 [[31merror[39m]: 	An error occurred when creating a post ValidationError: image: Path `image` is required. {
+  "object": {
+    "errors": {
+      "image": {
+        "message": "Path `image` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "message": "Path `image` is required.",
+          "type": "required",
+          "path": "image"
+        },
+        "kind": "required",
+        "path": "image"
+      }
+    },
+    "_message": "Post validation failed",
+    "message": "Post validation failed: image: Path `image` is required.",
+    "name": "ValidationError"
+  }
+}
+2020-05-26 13:39:00 [[31merror[39m]: 	An error occurred when creating a post ValidationError: image: Path `image` is required. {
+  "object": {
+    "errors": {
+      "image": {
+        "message": "Path `image` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "message": "Path `image` is required.",
+          "type": "required",
+          "path": "image"
+        },
+        "kind": "required",
+        "path": "image"
+      }
+    },
+    "_message": "Post validation failed",
+    "message": "Post validation failed: image: Path `image` is required.",
+    "name": "ValidationError"
+  }
+}
+2020-05-26 13:39:00 [[31merror[39m]: 	An error occurred when creating a post ValidationError: image: Path `image` is required. {
+  "object": {
+    "errors": {
+      "image": {
+        "message": "Path `image` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "message": "Path `image` is required.",
+          "type": "required",
+          "path": "image"
+        },
+        "kind": "required",
+        "path": "image"
+      }
+    },
+    "_message": "Post validation failed",
+    "message": "Post validation failed: image: Path `image` is required.",
+    "name": "ValidationError"
+  }
+}
+2020-05-26 13:39:00 [[31merror[39m]: 	An error occurred when creating a post ValidationError: image: Path `image` is required. {
+  "object": {
+    "errors": {
+      "image": {
+        "message": "Path `image` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "message": "Path `image` is required.",
+          "type": "required",
+          "path": "image"
+        },
+        "kind": "required",
+        "path": "image"
+      }
+    },
+    "_message": "Post validation failed",
+    "message": "Post validation failed: image: Path `image` is required.",
+    "name": "ValidationError"
+  }
+}
+2020-05-26 13:39:00 [[31merror[39m]: 	An error occurred when creating a post ValidationError: image: Path `image` is required. {
+  "object": {
+    "errors": {
+      "image": {
+        "message": "Path `image` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "message": "Path `image` is required.",
+          "type": "required",
+          "path": "image"
+        },
+        "kind": "required",
+        "path": "image"
+      }
+    },
+    "_message": "Post validation failed",
+    "message": "Post validation failed: image: Path `image` is required.",
+    "name": "ValidationError"
+  }
+}
+2020-05-26 13:39:00 [[31merror[39m]: 	An error occurred when creating a post ValidationError: image: Path `image` is required. {
+  "object": {
+    "errors": {
+      "image": {
+        "message": "Path `image` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "message": "Path `image` is required.",
+          "type": "required",
+          "path": "image"
+        },
+        "kind": "required",
+        "path": "image"
+      }
+    },
+    "_message": "Post validation failed",
+    "message": "Post validation failed: image: Path `image` is required.",
+    "name": "ValidationError"
+  }
+}
+2020-05-26 13:39:00 [[31merror[39m]: 	An error occurred when creating a post ValidationError: image: Path `image` is required. {
+  "object": {
+    "errors": {
+      "image": {
+        "message": "Path `image` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "message": "Path `image` is required.",
+          "type": "required",
+          "path": "image"
+        },
+        "kind": "required",
+        "path": "image"
+      }
+    },
+    "_message": "Post validation failed",
+    "message": "Post validation failed: image: Path `image` is required.",
+    "name": "ValidationError"
+  }
+}
+2020-05-26 13:39:00 [[31merror[39m]: 	An error occurred when creating a post ValidationError: image: Path `image` is required. {
+  "object": {
+    "errors": {
+      "image": {
+        "message": "Path `image` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "message": "Path `image` is required.",
+          "type": "required",
+          "path": "image"
+        },
+        "kind": "required",
+        "path": "image"
+      }
+    },
+    "_message": "Post validation failed",
+    "message": "Post validation failed: image: Path `image` is required.",
+    "name": "ValidationError"
+  }
+}
+2020-05-26 13:39:00 [[31merror[39m]: 	An error occurred when creating a post ValidationError: image: Path `image` is required. {
+  "object": {
+    "errors": {
+      "image": {
+        "message": "Path `image` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "message": "Path `image` is required.",
+          "type": "required",
+          "path": "image"
+        },
+        "kind": "required",
+        "path": "image"
+      }
+    },
+    "_message": "Post validation failed",
+    "message": "Post validation failed: image: Path `image` is required.",
+    "name": "ValidationError"
+  }
+}
+2020-05-26 13:39:00 [[31merror[39m]: 	An error occurred when creating a post ValidationError: image: Path `image` is required. {
+  "object": {
+    "errors": {
+      "image": {
+        "message": "Path `image` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "message": "Path `image` is required.",
+          "type": "required",
+          "path": "image"
+        },
+        "kind": "required",
+        "path": "image"
+      }
+    },
+    "_message": "Post validation failed",
+    "message": "Post validation failed: image: Path `image` is required.",
+    "name": "ValidationError"
+  }
+}
+2020-05-26 13:39:00 [[31merror[39m]: 	An error occurred when creating a post ValidationError: image: Path `image` is required. {
+  "object": {
+    "errors": {
+      "image": {
+        "message": "Path `image` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "message": "Path `image` is required.",
+          "type": "required",
+          "path": "image"
+        },
+        "kind": "required",
+        "path": "image"
+      }
+    },
+    "_message": "Post validation failed",
+    "message": "Post validation failed: image: Path `image` is required.",
+    "name": "ValidationError"
+  }
+}
+2020-05-26 13:39:00 [[31merror[39m]: 	An error occurred when creating a post ValidationError: image: Path `image` is required. {
+  "object": {
+    "errors": {
+      "image": {
+        "message": "Path `image` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "message": "Path `image` is required.",
+          "type": "required",
+          "path": "image"
+        },
+        "kind": "required",
+        "path": "image"
+      }
+    },
+    "_message": "Post validation failed",
+    "message": "Post validation failed: image: Path `image` is required.",
+    "name": "ValidationError"
+  }
+}
+2020-05-26 13:39:00 [[31merror[39m]: 	An error occurred when creating a post ValidationError: image: Path `image` is required. {
+  "object": {
+    "errors": {
+      "image": {
+        "message": "Path `image` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "message": "Path `image` is required.",
+          "type": "required",
+          "path": "image"
+        },
+        "kind": "required",
+        "path": "image"
+      }
+    },
+    "_message": "Post validation failed",
+    "message": "Post validation failed: image: Path `image` is required.",
+    "name": "ValidationError"
+  }
+}
+2020-05-26 13:39:00 [[31merror[39m]: 	An error occurred when creating a post ValidationError: image: Path `image` is required. {
+  "object": {
+    "errors": {
+      "image": {
+        "message": "Path `image` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "message": "Path `image` is required.",
+          "type": "required",
+          "path": "image"
+        },
+        "kind": "required",
+        "path": "image"
+      }
+    },
+    "_message": "Post validation failed",
+    "message": "Post validation failed: image: Path `image` is required.",
+    "name": "ValidationError"
+  }
+}
+2020-05-26 13:39:00 [[31merror[39m]: 	An error occurred when creating a post ValidationError: image: Path `image` is required. {
+  "object": {
+    "errors": {
+      "image": {
+        "message": "Path `image` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "message": "Path `image` is required.",
+          "type": "required",
+          "path": "image"
+        },
+        "kind": "required",
+        "path": "image"
+      }
+    },
+    "_message": "Post validation failed",
+    "message": "Post validation failed: image: Path `image` is required.",
+    "name": "ValidationError"
+  }
+}
+2020-05-26 13:39:00 [[31merror[39m]: 	An error occurred when creating a post ValidationError: image: Path `image` is required. {
+  "object": {
+    "errors": {
+      "image": {
+        "message": "Path `image` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "message": "Path `image` is required.",
+          "type": "required",
+          "path": "image"
+        },
+        "kind": "required",
+        "path": "image"
+      }
+    },
+    "_message": "Post validation failed",
+    "message": "Post validation failed: image: Path `image` is required.",
+    "name": "ValidationError"
+  }
+}
+2020-05-26 13:39:00 [[31merror[39m]: 	An error occurred when creating a post ValidationError: image: Path `image` is required. {
+  "object": {
+    "errors": {
+      "image": {
+        "message": "Path `image` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "message": "Path `image` is required.",
+          "type": "required",
+          "path": "image"
+        },
+        "kind": "required",
+        "path": "image"
+      }
+    },
+    "_message": "Post validation failed",
+    "message": "Post validation failed: image: Path `image` is required.",
+    "name": "ValidationError"
+  }
+}
+2020-05-26 13:39:00 [[31merror[39m]: 	An error occurred when creating a post ValidationError: image: Path `image` is required. {
+  "object": {
+    "errors": {
+      "image": {
+        "message": "Path `image` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "message": "Path `image` is required.",
+          "type": "required",
+          "path": "image"
+        },
+        "kind": "required",
+        "path": "image"
+      }
+    },
+    "_message": "Post validation failed",
+    "message": "Post validation failed: image: Path `image` is required.",
+    "name": "ValidationError"
+  }
+}
+2020-05-26 13:39:00 [[31merror[39m]: 	An error occurred when creating a post ValidationError: image: Path `image` is required. {
+  "object": {
+    "errors": {
+      "image": {
+        "message": "Path `image` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "message": "Path `image` is required.",
+          "type": "required",
+          "path": "image"
+        },
+        "kind": "required",
+        "path": "image"
+      }
+    },
+    "_message": "Post validation failed",
+    "message": "Post validation failed: image: Path `image` is required.",
+    "name": "ValidationError"
+  }
+}
+2020-05-26 13:39:00 [[31merror[39m]: 	An error occurred when creating a post ValidationError: image: Path `image` is required. {
+  "object": {
+    "errors": {
+      "image": {
+        "message": "Path `image` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "message": "Path `image` is required.",
+          "type": "required",
+          "path": "image"
+        },
+        "kind": "required",
+        "path": "image"
+      }
+    },
+    "_message": "Post validation failed",
+    "message": "Post validation failed: image: Path `image` is required.",
+    "name": "ValidationError"
+  }
+}
+2020-05-26 13:39:00 [[31merror[39m]: 	An error occurred when creating a post ValidationError: image: Path `image` is required. {
+  "object": {
+    "errors": {
+      "image": {
+        "message": "Path `image` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "message": "Path `image` is required.",
+          "type": "required",
+          "path": "image"
+        },
+        "kind": "required",
+        "path": "image"
+      }
+    },
+    "_message": "Post validation failed",
+    "message": "Post validation failed: image: Path `image` is required.",
+    "name": "ValidationError"
+  }
+}
+2020-05-26 13:39:00 [[31merror[39m]: 	An error occurred when creating a post ValidationError: image: Path `image` is required. {
+  "object": {
+    "errors": {
+      "image": {
+        "message": "Path `image` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "message": "Path `image` is required.",
+          "type": "required",
+          "path": "image"
+        },
+        "kind": "required",
+        "path": "image"
+      }
+    },
+    "_message": "Post validation failed",
+    "message": "Post validation failed: image: Path `image` is required.",
+    "name": "ValidationError"
+  }
+}
+2020-05-26 13:39:00 [[31merror[39m]: 	An error occurred when creating a post ValidationError: image: Path `image` is required. {
+  "object": {
+    "errors": {
+      "image": {
+        "message": "Path `image` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "message": "Path `image` is required.",
+          "type": "required",
+          "path": "image"
+        },
+        "kind": "required",
+        "path": "image"
+      }
+    },
+    "_message": "Post validation failed",
+    "message": "Post validation failed: image: Path `image` is required.",
+    "name": "ValidationError"
+  }
+}

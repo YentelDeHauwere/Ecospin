@@ -1,0 +1,90 @@
+/*********************** ECOSPIN ***********************/
+/*********************** BOOTSTRAP ***********************/
+/* Extra small devices (phones, 600px and down) */
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800|Roboto:400,400i,500,500i,700,700i&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+.is-minimized .sidebar {
+  width: 0;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  z-index: 1030;
+  height: 100vh;
+  width: 286px;
+  overflow: hidden;
+  background-color: #3c4b64;
+  color: #fff;
+  -webkit-transition: all 268ms ease-in-out 0s;
+  transition: all 268ms ease-in-out 0s;
+}
+
+.sidebar-brand {
+  background: rgba(0, 0, 21, 0.2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 56px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 56px;
+          flex: 0 0 56px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+}
+
+.sidebar-brand:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.sidebar-nav {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar-nav-link {
+  padding: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+  -webkit-transition: all 268ms ease-in-out 0s;
+  transition: all 268ms ease-in-out 0s;
+}
+
+.sidebar-nav-link:hover {
+  background: #321fdb;
+  text-decoration: none;
+  color: white;
+}
+
+.sidebar-nav-link.active {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.sidebar-nav-link > i {
+  width: 32px;
+}
+/*# sourceMappingURL=Sidebar.css.map */

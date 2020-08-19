@@ -1,0 +1,76 @@
+@import '../../_sass/abstracts/index';
+
+.profile-header {
+
+	&-button {
+		display: flex;
+		justify-content: flex-end;
+	}
+
+	&-bio {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+
+		&-img {
+			border-radius: 50%;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			border: 1px solid $ecospin-green;
+			
+		}
+
+		&-name {
+			font-size: $font-size-xxl;
+			font-weight: 700;
+			text-align: center;
+			margin: 0;
+		}
+		&-job {
+			font-size: $font-size-m;
+			text-align: center;
+
+		}
+	}
+
+	&-stats {
+		display: flex;
+		justify-content: space-evenly;
+		margin-top: 1rem;
+
+		&-stat {
+			display: table-caption;
+			text-align: center;
+			font-size: $font-size-l;
+
+			& b {
+				font-size: $font-size-xl;
+			}
+		}
+	}
+
+	&-nav {
+		display: flex;
+
+		&-item {
+			width: 50%;
+			display: flex;
+			justify-content: center;
+			color: $ecospin-grey;
+			font-size: $font-size-xxl;
+			padding: 1rem;
+
+			&-active {
+				color: $ecospin-black;
+				border-bottom: 3px solid $ecospin-black;
+
+			}
+
+			&:hover {
+				color: $ecospin-black;
+			}
+		}
+	}
+}
+
