@@ -5,20 +5,18 @@ import classnames from 'classnames';
 const PostEdit = ({className, children, viewModel, onSave = null, onUpdate = null}) => {
   const [postForm, setPostForm] = useState({
     txtTitle: '',
-    txtSynopsis: '',
-    txtBody: '',
-    ddlCategory: '',
-    txtImageUrl: ''
+    txtAdress: '',
+    txtBattery: '',
+    txtBatteryDuration: '',
   });
 
   useEffect(() => {
     if (viewModel && viewModel.post) {
       setPostForm({
         txtTitle: viewModel.post.title,
-        txtSynopsis: viewModel.post.synopsis,
-        txtBody: viewModel.post.body,
-        ddlCategory: viewModel.post._categoryId,
-        txtImageUrl: viewModel.post.imageUrl,
+        txtAdress: viewModel.post.adress,
+        txtBattery: viewModel.post.battery,
+        txtBatteryDuration: viewModel.post.batteryDuration,
       });
     }
   }, [viewModel])
@@ -28,10 +26,9 @@ const PostEdit = ({className, children, viewModel, onSave = null, onUpdate = nul
 
     const post = {
       title: postForm.txtTitle,
-      synopsis: postForm.txtSynopsis,
-      body: postForm.txtBody,
-      _categoryId: postForm.ddlCategory,
-      imageUrl: postForm.txtImageUrl
+      adress: postForm.txtAdress,
+      battery: postForm.txtBattery,
+      batteryDuration: postForm.txtBatteryDuration,
     };
 
     if (viewModel.post) {
@@ -51,44 +48,36 @@ const PostEdit = ({className, children, viewModel, onSave = null, onUpdate = nul
     });
   }
 
-  const handleSelectChange = (ev) => {
+  /* const handleSelectChange = (ev) => {
     setPostForm({
       ...postForm,
       [ev.target.name]: ev.target.options[ev.target.selectedIndex].value
     });
-  }
-  
+  } */
+
   return (
     <div className={classnames(className)}>
       <div className="card shadow mb-4">
         <div className="card-header py-3">
-  <h6 className="m-0 font-weight-bold text-primary">{!!viewModel && !!viewModel.post ? <Fragment>Update the post: {viewModel.post.title}</Fragment> : <Fragment>Create a new post</Fragment>}</h6>
+  			<h6 className="m-0 font-weight-bold text-primary">{!!viewModel && !!viewModel.post ? <Fragment>Update the post: <strong className="post-edit-strong">{viewModel.post.title}</strong> </Fragment> : <Fragment>Create a new post</Fragment>}</h6>
         </div>
         <div className="card-body">
           <form onSubmit={handleSubmit}>
             <div className="form-group">
               <label htmlFor="txtTitle">Title</label>
-              <input type="text" className="form-control" id="txtTitle" name="txtTitle" required value={postForm['txtTitle']} onChange={handleInputChange}/>
+              <input type="text" className="form-control edit" id="txtTitle" name="txtTitle" required value={postForm['txtTitle']} onChange={handleInputChange}/>
             </div>
-            <div className="form-group">
-              <label htmlFor="txtSynopsis">Synopsis</label>
-              <textarea className="form-control" id="txtSynopsis" name="txtSynopsis" rows="3" required value={postForm['txtSynopsis']} onChange={handleInputChange} />
+			<div className="form-group">
+              <label htmlFor="txtAdress">Adress</label>
+              <input type="text" className="form-control edit" id="txtAdress" name="txtAdress" required value={postForm['txtAdress']} onChange={handleInputChange}/>
             </div>
-            <div className="form-group">
-              <label htmlFor="txtBody">Body</label>
-              <textarea className="form-control" id="txtBody" name="txtBody" rows="10" required value={postForm['txtBody']} onChange={handleInputChange} />
+			<div className="form-group">
+              <label htmlFor="txtBattery">Battery</label>
+              <input type="text" className="form-control edit" id="txtBattery" name="txtBattery" required value={postForm['txtBattery']} onChange={handleInputChange}/>
             </div>
-            <div className="form-group">
-              <label htmlFor="ddlCategory">Category</label>
-              <select className="form-control" id="ddlCategory" name="ddlCategory" onChange={handleSelectChange} value={postForm['ddlCategory']}>
-                {viewModel && viewModel.categories && viewModel.categories.map((category) => (
-                  <option key={category._id} value={category._id}>{category.name}</option>
-                ))}
-              </select>
-            </div>
-            <div className="form-group">
-              <label htmlFor="txtImageUrl">Image Url</label>
-              <input type="text" className="form-control" id="txtImageUrl" name="txtImageUrl" value={postForm['txtImageUrl']} onChange={handleInputChange}/>
+			<div className="form-group">
+              <label htmlFor="txtBatteryDuration">Battery Duration</label>
+              <input type="text" className="form-control edit" id="txtBatteryDuration" name="txtBatteryDuration" required value={postForm['txtBatteryDuration']} onChange={handleInputChange}/>
             </div>
             <button type="submit" className="btn btn-primary">{!!viewModel && !!viewModel.post ? 'Update' : 'Save'} post</button>
           </form>          

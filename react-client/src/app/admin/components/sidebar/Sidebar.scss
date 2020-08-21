@@ -46,7 +46,10 @@ $sidebar-padding: 16px;
         padding: 0;
 
         &-item {
-            
+			
+			&.home {
+				border-bottom: 1px solid white;
+			}
         }
 
         &-link {
@@ -63,7 +66,7 @@ $sidebar-padding: 16px;
             transition: $sidebar-transition;
 
             &:hover {
-                background: #321fdb;
+                background: rgba(255,255,255,.05);
                 text-decoration: none;
                 color: rgba(255,255,255,1);
             }
@@ -78,4 +81,12 @@ $sidebar-padding: 16px;
             }
         }
     }
+}
+
+.btn.btn-primary {
+	color: white;
+
+	&.edit {
+		margin-bottom: 1rem;
+	}
 }

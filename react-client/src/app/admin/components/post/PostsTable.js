@@ -20,9 +20,8 @@ const PostsTable = ({children, posts, onDelete, onEdit}) => {
     <table className="table">
       <thead>
         <tr>
-          <th></th>
           <th>Title</th>
-          <th>Synopsis</th>
+          <th>Adress</th>
           <th>Created</th>
           <th>Actions</th>
         </tr>
@@ -32,11 +31,8 @@ const PostsTable = ({children, posts, onDelete, onEdit}) => {
           <tr
             key={post.id}
           >
-            <td>
-              CHKB
-            </td>
             <td>{post.title}</td>
-            <td>{post.description}</td>
+			<td>{post.adress}</td>
             <td>
               {moment(posts._createdAt).format('DD/MM/YYYY')}
             </td>

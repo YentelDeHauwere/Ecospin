@@ -43,7 +43,7 @@ function App() {
 				<RouteWithLayout exact path={Routes.CONTACT} component={ContactPage} layout={PageLayout} />
 				<RouteWithLayout exact path={Routes.POSTS} component={PostsPage} layout={PageLayout} />
 				<RouteWithLayout exact path={Routes.POST_DETAIL} component={PostDetailPage} layout={PageLayout} />
-				<AuthRouteWithLayout path={Routes.BACKOFFICE_LANDING} component={AdminPage} layout={BackofficeLayout} />
+				<RouteWithLayout path={Routes.BACKOFFICE_LANDING} component={AdminPage} layout={BackofficeLayout} />
 
 					// Home with a redirect
 				<RouteWithLayout exact path={Routes.HOME} component={HomePage} layout={MapboxLayout} />

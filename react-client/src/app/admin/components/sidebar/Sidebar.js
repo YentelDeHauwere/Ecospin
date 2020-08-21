@@ -13,7 +13,7 @@ const Sidebar = ({children, className}) => {
         <div className="sidebar-brand-icon">
           <i className="fas fa-laugh-wink"></i>
         </div>
-        <div className="sidebar-brand-text mx-3">GDM Admin <sup>2</sup></div>
+        <div className="sidebar-brand-text mx-3">Admin Ecospin</div>
       </Link>
       <Navigation className="sidebar-nav" />
     </div>

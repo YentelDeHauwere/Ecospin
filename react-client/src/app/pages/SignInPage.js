@@ -46,7 +46,7 @@ const SignInPage = () => {
 					</div>
 				</div>
 				<div>
-					<ButtonLarge content="Sign In" />
+					<ButtonLarge content="Log In" />
 					<div className="auth-forgot-pw"><p>Forgot your password?</p></div>
 				</div>
 			</div>
