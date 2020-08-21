@@ -50,7 +50,7 @@ const SignInPage = () => {
 					<div className="auth-forgot-pw"><p>Forgot your password?</p></div>
 				</div>
 			</div>
-			<Link to="/auth/signup"><div className="auth-bottom" ><p>Don't have an account yet? <b className="auth-bottom-bold">Sign Up</b> </p></div></Link>
+		<div className="auth-bottom" ><p>Don't have an account yet? <Link to="/auth/signup"><b className="auth-bottom-bold">Sign Up</b></Link></p></div>
 		</form>
 	</div>
   );

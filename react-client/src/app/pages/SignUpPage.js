@@ -61,7 +61,7 @@ const SignUpPage = ({children}) => {
 				</div>
 				<ButtonLarge content="Sign Up" />
 			</div>
-			<Link to="/auth/signin"><div className="auth-bottom" ><p>Already have an account? <b className="auth-bottom-bold" >Sign In</b></p></div></Link>
+			<div className="auth-bottom" ><p>Already have an account? <Link to="/auth/signin"><b className="auth-bottom-bold" >Sign In</b></Link></p></div>
 		</form>
 	</div>
   );
