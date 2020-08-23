@@ -40,9 +40,6 @@ function App() {
 				<RouteWithLayout exact path={Routes.NOTIF_MESSAGES} component={MessagesPage} layout={NotifLayout} />
 				<RouteWithLayout exact path={Routes.NOTIF_NOTIFICATIONS} component={NotificationsPage} layout={NotifLayout} />
 
-				<RouteWithLayout exact path={Routes.CONTACT} component={ContactPage} layout={PageLayout} />
-				<RouteWithLayout exact path={Routes.POSTS} component={PostsPage} layout={PageLayout} />
-				<RouteWithLayout exact path={Routes.POST_DETAIL} component={PostDetailPage} layout={PageLayout} />
 				<RouteWithLayout path={Routes.BACKOFFICE_LANDING} component={AdminPage} layout={BackofficeLayout} />
 
 					// Home with a redirect
