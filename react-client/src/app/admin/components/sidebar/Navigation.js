@@ -14,9 +14,6 @@ const Navigation = ({children, className}) => {
 		<li className="sidebar-nav-item">        
 			<NavLink to={Routes.BACKOFFICE_POSTS} activeClassName="active" className="sidebar-nav-link"><i className="fas fa-edit"></i><span>Posts</span></NavLink>
 		</li>
-		<li className="sidebar-nav-item">        
-			<NavLink to={Routes.BACKOFFICE_POSTS} activeClassName="active" className="sidebar-nav-link"><i className="fas fa-users"></i><span>Users</span></NavLink>
-		</li>
     </ul>
   );
 };

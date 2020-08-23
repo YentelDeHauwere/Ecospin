@@ -24,13 +24,18 @@ const PostCreatePage = ({ children }) => {
   }, [createPostViewModel]);
 
   const handleOnSave = async (post) => {
-    const storedPost = await storePost(post);
+	const storedPost = await storePost(post);
+
+	console.log(post);
+	
     addToast({
       title: `Administration: New Post`,
       message: `Successfully created a new post with id: ${storedPost._id} and title: ${storedPost.title}`
     });
-    history.push(Routes.BACKOFFICE_POSTS);
+	history.push(Routes.BACKOFFICE_POSTS);
   }
+
+
   
   return (
     <div className="container">

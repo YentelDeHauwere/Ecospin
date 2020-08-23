@@ -55,18 +55,20 @@ class PostController {
   };
 
   store = async (req: Request, res: Response, next: NextFunction) => {
+	  console.log(req.body);
     try {
       const postCreate = new Post({
-        title: req.body.title,
-        synopsis: req.body.synopsis,
-        body: req.body.body,
+		title: req.body.title,
+		adress: req.body.adress,
+		battery: req.body.battery,
+		batteryDuration: req.body.batteryDuration,
         _categoryId: req.body._categoryId,
-        imageUrl: req.body.imageUrl,
       });
       const post = await postCreate.save();
       return res.status(201).json(post);
     } catch (err) {
-      next(err);
+	  next(err);
+	  console.log(err);
     }
   };
 
@@ -96,6 +98,9 @@ class PostController {
     try {
       const postUpdate = {
         title: req.body.title,
+		adress: req.body.adress,
+		battery: req.body.battery,
+		batteryDuration: req.body.batteryDuration,
         synopsis: req.body.synopsis,
         body: req.body.body,
         _categoryId: req.body._categoryId,

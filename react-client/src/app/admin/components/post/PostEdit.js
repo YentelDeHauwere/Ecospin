@@ -48,12 +48,12 @@ const PostEdit = ({className, children, viewModel, onSave = null, onUpdate = nul
     });
   }
 
-  /* const handleSelectChange = (ev) => {
+  const handleSelectChange = (ev) => {
     setPostForm({
       ...postForm,
       [ev.target.name]: ev.target.options[ev.target.selectedIndex].value
     });
-  } */
+  }
 
   return (
     <div className={classnames(className)}>

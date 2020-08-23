@@ -6,8 +6,6 @@ import { ICategory } from './category.model';
 interface IPost extends Document {
   title: string;
   slug: string;
-  synopsis: string;
-  body: string;
   imageUrl: string;
   adress: string;
   battery: number;
@@ -36,15 +34,6 @@ const postSchema: Schema = new Schema(
       required: true,
       lowercase: true,
     },
-    synopsis: {
-      type: String,
-      required: true,
-      max: 512,
-    },
-    body: {
-      type: String,
-      required: true,
-    },
     imageUrl: {
       type: String,
       required: false,
@@ -54,7 +43,7 @@ const postSchema: Schema = new Schema(
 		required: false,
 	},
 	battery: {
-		type: String,
+		type: Number,
 		required: false,
 	},
 	batteryDuration: {
